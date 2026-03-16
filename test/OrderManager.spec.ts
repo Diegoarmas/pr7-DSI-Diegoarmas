@@ -25,7 +25,7 @@ describe("OrderManager", () => {
     ],
   };
 
-  it("should add a new order and notify observers", () => {
+  it("Debe agregar un nuevo pedido y notificar a los observadores", () => {
     orderManager.addOrder(order1);
     const retrievedOrder = orderManager.getOrder("A-1001");
 
